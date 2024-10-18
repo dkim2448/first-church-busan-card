@@ -1,0 +1,181 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Radio Canada";
+    font-weight: 400;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+/* HEADER */
+
+#header {
+    color: #121212;
+    margin: 5vh auto auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 600px;
+}
+
+#title {
+    margin-left: 1%;
+    font-size: 0.65em;
+}
+
+#navbar {
+    text-align: right;
+    margin-right: 2%;
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #121212;
+    transition-duration: 500ms;
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+#navbar li {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#navbar a:hover {
+    color: #4f69bd;
+}
+
+/* MAIN BODY */
+
+/* FIRST PAGE */
+
+#firstpage {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    /* font-size: 1rem; */
+}
+
+#intro {
+    color: #fbfbfb;
+    background-color: #4f69bd;
+    text-align: center;
+    margin: 5% auto 1% auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+#heart, #mind, #truth, #flesh {
+    padding: 2%;
+}
+
+#heart h1, #mind h1, #truth h1, #flesh h1 {
+    color: #de5b55;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#heart h2, #mind h2, #truth h2, #flesh h2 {
+    color: #de5b55;
+    text-align: right;
+    font-size: 1em;
+}
+
+#ending {
+    color: #fbfbfb;
+    font-weight: bold;
+    background-color: #4f69bd;
+    margin: 5% auto 1% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12%;
+}
+
+#ending p {
+    padding: 1% 2% 1% 2%;
+}
+
+#block {
+    width: 50%;
+    height: 1.8vh;
+    background-color: #fbfbfb;
+    margin-right: 2%;
+}
+
+hr {
+    width: 650px;
+    margin: auto;
+}
+
+/* PROJECT SECTION */
+
+#secondpage {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+#title2 {
+    color: #fbfbfb;
+    background-color: #4f69bd;
+    text-align: center;
+    margin: 5% auto 1% auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 1.2em;
+}
+
+#step1, #step2, #step3, #step4{
+    padding: 1% 1% 1% 1%;
+}
+
+#step1 {
+    margin-top: 1%;
+}
+
+#step4 {
+    margin-bottom: 2%;
+}
+
+#explain {
+    padding: 3% 0;
+}
+
+#explain span {
+    color: #de5b55;
+}
+
+#stepintro {
+    margin: auto;
+    color: #fbfbfb;
+    background-color: #4f69bd;
+    padding: 2%;
+}
+
+#step1 h1, #step2 h1, #step3 h1, #step4 h1 {
+    color: #de5b55;
+    font-weight: bold;
+    font-size: 1.5em;
+}
