@@ -24,7 +24,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 600px;
+    width: 40vw;
 }
 
 #title {
@@ -69,7 +69,7 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 40vw;
     /* font-size: 1rem; */
 }
 
@@ -115,14 +115,14 @@ body {
 }
 
 #block {
-    width: 50%;
-    height: 1.8vh;
+    width: 60%;
+    height: 2.5vh;
     background-color: #fbfbfb;
     margin-right: 2%;
 }
 
 hr {
-    width: 650px;
+    width: 80%;
     margin: auto;
 }
 
@@ -134,7 +134,7 @@ hr {
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 600px;
+    width: 40vw;
 }
 
 #title2 {
@@ -145,10 +145,11 @@ hr {
     padding-top: 1%;
     padding-bottom: 1%;
     font-size: 1.2em;
+    width: 40%;
 }
 
 #step1, #step2, #step3, #step4{
-    padding: 1% 1% 1% 1%;
+    padding: 1% 5% 1% 5%;
 }
 
 #step1 {
@@ -160,7 +161,7 @@ hr {
 }
 
 #explain {
-    padding: 3% 0;
+    padding: 3%;
 }
 
 #explain span {
@@ -168,14 +169,53 @@ hr {
 }
 
 #stepintro {
+    width: 90%;
     margin: auto;
     color: #fbfbfb;
     background-color: #4f69bd;
-    padding: 2%;
+    padding: 1%;
 }
 
 #step1 h1, #step2 h1, #step3 h1, #step4 h1 {
     color: #de5b55;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    background-color: #4f69bd;
+}
+
+.footertext {
+    margin: 0 10vw;
+    font-size: 1em;
+    color: white;
+}
+
+.footericons {
+    margin: 0 10vw;
+    font-size: 2em;
+}
+
+.footericons a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1vw;
+    transition-duration: 1000ms;
+    margin: 1vw;
+}
+
+.footericons i {
+    transition-duration: 300ms;
+}
+
+.footericons i:hover {
+    transform: scale(1.2, 1.2);
 }
