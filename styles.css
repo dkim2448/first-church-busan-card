@@ -4,14 +4,6 @@
     }
 }
 
-/* Define media query for mobile devices */
-@media (max-width: 680px) {
-    /* Set smaller font size for mobile */
-    body {
-        font-size: 12px;
-    }
-}
-
 * {
     margin: 0;
     box-sizing: border-box;
@@ -127,11 +119,6 @@ body {
     height: 1.8vh;
     background-color: #fbfbfb;
     margin-right: 2%;
-}
-
-hr {
-    width: 650px;
-    margin: auto;
 }
 
 /* PROJECT SECTION */
