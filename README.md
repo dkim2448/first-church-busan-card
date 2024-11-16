@@ -1,6 +1,4 @@
 <h1>4-Step Repentance Card - Created for Busan First Church</h1>
-  <p><strong>Welcome to the Repentance Card Guide</strong><br>
-  This guide is designed to help believers cleanse their sins continuously through the practice of 4-Step Repentance.</p>
   
   <h2>About Busan First Church</h2>
   <p><strong>Address:</strong><br>
