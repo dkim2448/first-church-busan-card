@@ -6,17 +6,6 @@
   <p><strong>Address:</strong><br>
   252, Geumgok-daero, Buk-gu, Busan</p>
   
-  <h3>Online Services Schedule:</h3>
-  <ul>
-    <li>Sunday Morning: 5:00 AM</li>
-    <li>Sunday Service 1: 11:00 AM</li>
-    <li>Sunday Service 2: 2:00 PM</li>
-    <li>Sunday Evening: 6:00 PM</li>
-    <li>Wednesday Evening: 8:00 PM</li>
-    <li>Friday All Night Service: 10:00 PM</li>
-    <li>Weekday Morning Service: 5:00 AM</li>
-  </ul>
-  
   <h3>Online Platforms:</h3>
   <ul>
     <li><a href="http://www.church.or.kr" target="_blank">Homepage</a></li>
@@ -39,16 +28,16 @@
   <p>God desires to save and bless all of us, but sin creates a barrier (Jeremiah 5:25, Isaiah 59:1-2). By following these four steps based on biblical teachings, we can overcome our sins and receive God’s blessings and salvation.</p>
   
   <ol>
-    <li><strong>1st Step - Realize Sin:</strong><br>
+    <li><strong>1st Step - To realize sin</strong><br>
       Through the Law comes the knowledge of sin (Romans 3:20).<br>
       Recognize that without understanding, man is like a beast (Psalm 49:20).</li>
-    <li><strong>2nd Step - Write Sin on the Horns of the Altar:</strong><br>
+    <li><strong>2nd Step - The sin written down on the horns of altar</strong><br>
       Sin is engraved on the horns of the altar (Jeremiah 17:1).<br>
       Redemption is possible through the blood of Christ (Ephesians 1:7).</li>
-    <li><strong>3rd Step - Write Sin on the Tablet of the Heart:</strong><br>
+    <li><strong>3rd Step -The sin written down upon the tablet of heart</strong><br>
       Sin is not only external but resides within (Jeremiah 17:1).<br>
       Redemption and cleansing come through Christ’s blood (Ephesians 1:7).</li>
-    <li><strong>4th Step - Thanksgiving and Praise:</strong><br>
+    <li><strong>4th Step - Thanksgiving and Praise</strong><br>
       Enter His gates with thanksgiving (Psalm 100:4).<br>
       Overflow with gratitude and faith (Colossians 2:7).<br>
       Give thanks to glorify God (2 Corinthians 4:15).</li>
@@ -59,6 +48,4 @@
   
   <p>By sincerely following these steps, you can renew your faith, receive God’s grace, and walk in His blessings.</p>
   
-  <p><strong>Stay connected and continue your journey of faith with Busan First Church.</strong></p>
-  
-  <p>Blessings,<br><strong>Busan First Church Broadcasting Department</strong></p>
+  <p><strong>Busan First Church Broadcasting Department</strong></p>
