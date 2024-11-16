@@ -1,8 +1,10 @@
-<h1>4-Step Repentance Card - Created for Busan First Church</h1>
+<h1>4-Step Repentance Card</h1>
   
-  <h2>About Busan First Church</h2>
+  <h2>Credits to Busan First Church</h2>
+  <a href="https://first-church-busan-card.vercel.app/" target="_blank">Link to website</a>
   <p><strong>Address:</strong><br>
   252, Geumgok-daero, Buk-gu, Busan</p>
+  
   
   <h3>Online Platforms:</h3>
   <ul>
