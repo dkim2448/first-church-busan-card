@@ -1,6 +1,7 @@
+/* General Reset */
 @media (prefers-reduced-motion: no-preference) {
     * {
-      scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
 }
 
@@ -16,7 +17,6 @@ body {
 }
 
 /* HEADER */
-
 #header {
     color: #121212;
     margin: 5vh auto auto;
@@ -24,17 +24,17 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 10vh;
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
+    padding: 0 5%;
 }
 
 #title {
-    margin-left: 1%;
-    font-size: 0.65em;
+    font-size: 0.75em;
 }
 
 #navbar {
     text-align: right;
-    margin-right: 2%;
 }
 
 #navbar ul {
@@ -44,8 +44,8 @@ body {
 }
 
 #navbar a {
-    text-decoration: none;
     list-style-type: none;
+    text-decoration: none;
     color: #121212;
     transition-duration: 500ms;
     font-size: 1em;
@@ -53,8 +53,7 @@ body {
 }
 
 #navbar li {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0;
 }
 
 #navbar a:hover {
@@ -62,30 +61,26 @@ body {
 }
 
 /* MAIN BODY */
-
 main {
-    width: 700px;
+    width: 90%;
+    max-width: 700px;
     margin: auto;
     padding: 20px;
 }
 
 /* FIRST PAGE */
-
 #firstpage {
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
-    /* font-size: 1rem; */
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
 }
 
 #intro {
     color: #fbfbfb;
     background-color: #4f69bd;
     text-align: center;
-    margin: 5% auto 1% auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin: 5% auto 1%;
+    padding: 1% 0;
     font-size: 1.2em;
 }
 
@@ -109,47 +104,41 @@ main {
     color: #fbfbfb;
     font-weight: bold;
     background-color: #4f69bd;
-    margin: 5% auto 1% auto;
+    margin: 5% auto 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 12%;
+    padding: 1%;
 }
 
 #ending p {
-    padding: 1% 2% 1% 2%;
+    padding: 1% 2%;
 }
 
 #block {
     width: 50%;
     height: 1.8vh;
     background-color: #fbfbfb;
-    margin-right: 2%;
 }
 
 /* PROJECT SECTION */
-
 #secondpage {
-    margin-top: 5%;
-    margin-bottom: 5%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
+    margin: 5% auto;
 }
 
 #title2 {
     color: #fbfbfb;
     background-color: #4f69bd;
     text-align: center;
-    margin: 5% auto 1% auto;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    margin: 5% auto 1%;
+    padding: 1% 0;
     font-size: 1.2em;
 }
 
-#step1, #step2, #step3, #step4{
-    padding: 1% 1% 1% 1%;
+#step1, #step2, #step3, #step4 {
+    padding: 1%;
 }
 
 #step1 {
@@ -169,14 +158,124 @@ main {
 }
 
 #stepintro {
-    margin: auto;
     color: #fbfbfb;
     background-color: #4f69bd;
     padding: 2%;
+    text-align: center;
 }
 
 #step1 h1, #step2 h1, #step3 h1, #step4 h1 {
     color: #de5b55;
     font-weight: bold;
     font-size: 1.5em;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1024px) {
+    #header, main, #firstpage, #secondpage {
+        width: 95%;
+    }
+
+    #title {
+        font-size: 0.9em;
+    }
+
+    #navbar a {
+        font-size: 0.95em;
+    }
+
+    #intro, #title2 {
+        font-size: 1.1em;
+    }
+
+    #heart h1, #mind h1, #truth h1, #flesh h1,
+    #step1 h1, #step2 h1, #step3 h1, #step4 h1 {
+        font-size: 1.4em;
+    }
+
+    #heart h2, #mind h2, #truth h2, #flesh h2 {
+        font-size: 0.95em;
+    }
+
+    #ending {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #block {
+        width: 75%;
+        margin: 2% auto 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #header, main, #firstpage, #secondpage {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    #title {
+        font-size: 0.85em;
+    }
+
+    #navbar a {
+        font-size: 0.9em;
+    }
+
+    #intro, #title2 {
+        font-size: 1em;
+    }
+
+    #heart h1, #mind h1, #truth h1, #flesh h1,
+    #step1 h1, #step2 h1, #step3 h1, #step4 h1 {
+        font-size: 1.3em;
+    }
+
+    #heart h2, #mind h2, #truth h2, #flesh h2 {
+        font-size: 0.9em;
+    }
+
+    #ending p {
+        font-size: 0.95em;
+    }
+
+    #block {
+        width: 85%;
+    }
+}
+
+@media (max-width: 480px) {
+    #header, main, #firstpage, #secondpage {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    #title {
+        font-size: 0.75em;
+    }
+
+    #navbar a {
+        font-size: 0.85em;
+    }
+
+    #intro, #title2 {
+        font-size: 0.9em;
+    }
+
+    #heart h1, #mind h1, #truth h1, #flesh h1,
+    #step1 h1, #step2 h1, #step3 h1, #step4 h1 {
+        font-size: 1.2em;
+    }
+
+    #heart h2, #mind h2, #truth h2, #flesh h2 {
+        font-size: 0.85em;
+    }
+
+    #ending p {
+        font-size: 0.9em;
+    }
+
+    #block {
+        width: 100%;
+    }
 }
